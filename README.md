@@ -15,29 +15,48 @@ Data Description
 The dataset used in this project consists of various features that influence house prices. Key columns include:
 
 Area: The total area of the house in square feet.
+
 BHK: The number of bedrooms.
+
 Bathroom: The number of bathrooms.
+
 Furnishing: The furnishing status of the property (e.g., furnished, semi-furnished, unfurnished).
+
 Locality: The location of the property.
+
 Parking: The availability of parking space.
+
 Status: The current status of the property (e.g., ready to move, under construction).
+
 Transaction: The type of transaction (e.g., new, resale).
+
 Type: The type of property (e.g., apartment, villa).
+
 Per_Sqft: The price per square foot.
+
 Machine Learning Model
+
 Model Selection: A Linear Regression model was chosen for its simplicity and interpretability.
+
 Feature Engineering: Categorical features were encoded using one-hot encoding, and numerical features were normalized.
 Training and Testing: The dataset was split into training and testing sets to evaluate the model's performance. The model was trained using the training set and evaluated on the testing set.
+
 Graphical User Interface (GUI)
+
 Technology: Tkinter, a standard Python library for creating GUI applications.
+
 Features: The GUI allows users to:
 Select or input values for various features (Area, BHK, Bathroom, etc.) using dropdown menus and entry fields.
 Click a "Predict" button to generate a house price prediction based on the input features.
 Display the predicted price on the interface.
+
 Implementation Details
+
 Data Loading: The data is loaded from an Excel file using Pandas.
+
 Model Saving and Loading: The trained model is saved as a .pkl file using pickle, allowing for easy loading and use in the GUI.
 Prediction: The GUI collects user input, formats it appropriately, and uses the loaded model to predict the house price, which is then displayed to the user.
+
 Conclusion
 The House Price Prediction project provides a practical application of machine learning in the real estate domain. By leveraging data analysis and machine learning techniques, the project offers valuable insights into property pricing and facilitates informed decision-making for potential buyers and sellers. The user-friendly GUI ensures accessibility and ease of use, making the tool valuable for a wide range of users, including real estate agents, investors, and homebuyers.
 
