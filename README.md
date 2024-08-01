@@ -2,11 +2,16 @@
 The House Price Prediction project aims to develop a machine learning model that predicts the price of a house based on various features such as area, number of bedrooms (BHK), number of bathrooms, furnishing status, locality, parking availability, property status, transaction type, property type, and price per square foot. The project involves data preprocessing, model training, and building a graphical user interface (GUI) to make predictions easily accessible.
 Objectives
 Data Collection: Collect and prepare a dataset containing relevant features and target variables (house prices).
+
 Data Preprocessing: Clean and preprocess the data, including handling missing values, encoding categorical features, and normalizing numerical features.
+
 Model Training: Train a machine learning model to accurately predict house prices based on input features.
+
 Model Evaluation: Evaluate the model's performance using metrics.
+
 GUI Development: Develop a user-friendly GUI using Tkinter that allows users to input features and obtain house price predictions.
 Data Description
+
 The dataset used in this project consists of various features that influence house prices. Key columns include:
 
 Area: The total area of the house in square feet.
